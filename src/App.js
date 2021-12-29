@@ -110,7 +110,7 @@ function App() {
             <div className="from-group form-radio">
               <label className="priority-label">Choose priority level:</label>
               <div className="form-check">
-                <input className="form-check-input radio" type="radio" name="priority" id="top-priority" value="1" checked/>
+                <input className="form-check-input radio" type="radio" name="priority" id="top-priority" value="1"/>
                 <label className="ml-2 form-check-label border-red" htmlFor="top-priority">
                 Top Priority
                 </label>
