@@ -21,7 +21,7 @@ function App() {
           <i className="fas fa-pencil-alt edit-list-name-btn align-self-center ml-2" data-toggle="modal"
             data-target="#editListNameModal"></i>
         </div>
-        <button onClick={() => alert("AI sorting ...")}>Let AI sort your tasks efficiently!</button>
+        <h3>Let AI sort your tasks intelligently!</h3>
         <div>
           <label className="m-0 p-0" htmlFor="sort">Sort by:</label>
           <select name="sort" id="sort" className="sort-dropdown">
@@ -29,6 +29,7 @@ function App() {
             <option value="deadline">Deadline</option>
             <option value="date">Date Created</option>
             <option value="a-z">A-Z</option>
+            <option value="ai">AI Sort</option>
           </select>
         </div>
       </div>
