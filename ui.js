@@ -12,6 +12,7 @@ class UI {
     this.main = document.querySelector('#main');
     this.overlay = document.querySelector('.overlay');
     this.header = document.querySelector('.header');
+    this.aiButton = document.querySelectorAll('button')[1];
     this.currentListContainer = document.querySelector(
       '.current-list-container'
     );

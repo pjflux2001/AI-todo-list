@@ -115,9 +115,21 @@ class StorageAndData {
     } else if (option === 'date') {
       // if option is deadline sort in in order of deadline
       sortedTasks = tasks.sort((a, b) => a.id - b.id);
-    } else {
+    } else if (option === 'a-z'){
       // if option is a-z sort alphabetically
       sortedTasks = tasks.sort((a, b) => a.name.localeCompare(b.name));
+    } else {
+      sortedTasks = tasks.sort((a, b) => {
+        if(a.date == b.date) {
+            if(a.priority == b.priority) {
+                a.name - b.name;
+            } else {
+                a.priority - b.priority;
+            }
+        } else {
+            a.deadline - b.deadline;
+        }
+      });
     }
     return sortedTasks;
   }

@@ -161,6 +161,12 @@ ui.sortDropdown.addEventListener('change', function (e) {
   ui.renderTasks(storageAndData.findSelectedList().tasks);
 });
 
+ui.aiButton.addEventListener('click', function () {
+  alert("");
+  // render tasks
+  ui.renderTasks(storageAndData.findSelectedList().tasks);
+});
+
 // Event listener on lists in side menu to select individual list
 ui.allLists.addEventListener('click', function (e) {
   // check if element clicked is an li node
