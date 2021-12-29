@@ -1,3 +1,34 @@
+# AI-ToDo-list
+Lets AI handle your to-do list intelligently 
+
+# Technologies used :
+1. HTML - structure of page
+1. CSS - styling of components
+1. Javascript - client side logic
+1. Webpack - backend logic
+1. ReactJS - client side rendering
+1. NodeJS - server side logic
+1. Github - version control 
+ 
+# Features :
+1. Responsive and Reactive
+1. Add / Edit / Delete tasks : with title, description, deadline, and priority
+1. Various sort filters : sort by any category or let AI sort it for you
+1. Multiple user support
+1. Search feature to search among existing tasks
+ 
+# Demo Link :
+Deployed at https://pjflux2001.github.io/AI-todo-list/
+
+# How to run : 
+Step 1 : Clone the repo <br>
+Step 2 : Go inside the cloned folder <br>
+Step 3 : `npm install` <br>
+Step 4 : `npm run start` <br>
+Step 5 : Goto http://localhost:3000/AI-todo-list in your browser <br>
+
+-----------------------------------------------------------------------------
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
