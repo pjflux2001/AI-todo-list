@@ -1,6 +1,6 @@
 // IMPORTED MODULES
 import { ui } from './ui';
-import { storageAndData } from '../src/storage-data';
+import { storageAndData } from './storage-data';
 
 // EVENT LISTENERS
 // on window load retrieved saved data and render
